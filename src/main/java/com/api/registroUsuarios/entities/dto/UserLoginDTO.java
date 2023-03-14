@@ -1,19 +1,10 @@
-package com.api.registroUsuarios.entities;
+package com.api.registroUsuarios.entities.dto;
 
-public class UserDTO {
-    private String name;
+public class UserLoginDTO {
     private String email;
     private String password;
 
-    public UserDTO() {
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
+    public UserLoginDTO() {
     }
 
     public String getEmail() {
